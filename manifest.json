@@ -1,0 +1,11 @@
+{
+    "name": "my-extension",
+    "description": "This Chrome extensions will help to find weather of particular location",
+    "version": "0.1",
+    "manifest_version": 2,
+    "permissions": ["geolocation"],
+    "browser_action":{
+        "default_icon": "temperature.png", 
+        "default_popup": "popup.html" 
+    }
+}
